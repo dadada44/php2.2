@@ -8,6 +8,21 @@
 </head>
 
 <body>
+        <form method="post">
+            <label>
+                :<br />
+                <input type="text" name="" />
+            </label><br />
+            <label>
+                :<br />
+                <input type="text" name="" />
+            </label><br />
+            <label>
+                :<br />
+                <input type="text" name="*" />
+            </label><br />
+            <input type="submit" value="Registrovat" />
+        </form>
     <?php
     $servername = "localhost";
     $username = "root";
